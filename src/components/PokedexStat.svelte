@@ -1,0 +1,9 @@
+<script>
+    export let item;
+</script>
+<li>
+    <span>
+        <b>{ item.stat.name.toUpperCase() }: </b>
+    </span>
+    <span>{ item.base_stat }</span>
+</li>
